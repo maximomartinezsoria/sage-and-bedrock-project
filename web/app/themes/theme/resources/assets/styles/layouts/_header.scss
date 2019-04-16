@@ -1,0 +1,46 @@
+.banner {
+  height: 70px;
+  line-height: 70px;
+
+  .nav {
+    li {
+      @extend .nav-item;
+    }
+
+    a {
+      @extend .nav-link;
+    }
+  }
+
+  .brand {
+    font-weight: 700;
+    margin-right: 35px;
+    font-size: 20px;
+    color: $primary-color;
+    font-family: $primary-font;
+  }
+
+  .description {
+    color: $primary-color;
+    font-size: 17px;
+    font-family: $secondary-font;
+  }
+
+  .nav-primary {
+    .menu-main-menu-container {
+      height: 100%;
+
+      .menu-item {
+        height: 100%;
+
+        a {
+          height: 100%;
+          padding-top: 0;
+          padding-bottom: 0;
+          color: $primary-color;
+          font-family: $secondary-font;
+        }
+      }
+    }
+  }
+}

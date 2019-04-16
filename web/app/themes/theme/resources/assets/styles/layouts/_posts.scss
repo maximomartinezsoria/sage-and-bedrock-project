@@ -1,0 +1,31 @@
+.blog {
+  .posts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .post {
+      width: 90%;
+
+      .size-post-thumbnail {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .blog {
+    .posts-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .post {
+    margin: 20px auto;
+
+    img {
+      width: 100%;
+    }
+  }
+}

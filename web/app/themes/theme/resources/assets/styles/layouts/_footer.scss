@@ -1,0 +1,12 @@
+.content-info {
+  height: 30px;
+  line-height: 30px;
+
+  @include font-size(15px);
+
+  .nav {
+    li {
+      margin: 0 10px;
+    }
+  }
+}

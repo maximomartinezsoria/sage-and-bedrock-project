@@ -1,0 +1,39 @@
+.prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+
+  .price {
+    h3 {
+      margin: 20px auto 10px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    .price-number {
+      font-weight: 700;
+      color: $primary-color;
+      text-align: center;
+
+      @include font-size(42px);
+    }
+  }
+
+  .border {
+    border: 1px solid $primary-color;
+  }
+
+  .border-fat {
+    border: 3px solid $primary-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .prices {
+    grid-template-columns: 1fr;
+  }
+}

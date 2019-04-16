@@ -1,0 +1,10 @@
+@function get-rems($px) {
+  $rem: $px / 16px;
+
+  @return #{$rem}rem;
+}
+
+@mixin font-size($px) {
+  font-size: $px;
+  font-size: get-rems($px);
+}

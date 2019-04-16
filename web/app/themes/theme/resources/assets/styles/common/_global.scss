@@ -1,0 +1,56 @@
+body {
+  font-family: $secondary-font;
+
+  @include font-size(17px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primary-font;
+  font-weight: 700;
+  text-align: center;
+  color: $primary-color;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+h1 {
+  @include font-size(40px);
+}
+
+h2 {
+  @include font-size(30px);
+}
+
+h3 {
+  @include font-size(25px);
+}
+
+h4 {
+  @include font-size(22px);
+}
+
+h5 {
+  @include font-size(20px);
+}
+
+h6 {
+  @include font-size(18px);
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+}
+
+.page-header {
+  margin: 60px auto 30px;
+}

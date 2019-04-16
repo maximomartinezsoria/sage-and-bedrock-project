@@ -1,0 +1,18 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$primary-color: #34393e;
+
+$secondary-color: #4b6b8a;
+
+$tertiary-color: #fefefe;
+
+$hero-bg-color: #fafafa;
+
+$primary-font: "Rubik", sans-serif;
+
+$secondary-font: sans-serif;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
